@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+upgw/TafjzxzIpL7k0V8RBuKHOhTT970iRDgaFGRJIF/X1FSv5kvdzR8G8yN/mOkUknEpaPc3EMVE3V6QEp1w==",
+  "dgSpecHash": "IwUd0a3wJhV1FZrzHAm0zDeHIQ3qcILJhuXEU7X0rovgZ2c+aw+RPyb/eNfX/WYS7h3PqTU3OcZrj6OILUPMBA==",
   "success": true,
-  "projectFilePath": "D:\\Yazilmis proqramlar\\ASP.NET_CORE_TestProjectsAndTricks\\ASP.NET_CORE_HTML5_WebSite\\ASP.NET_CORE_HTML5_WebSite.csproj",
+  "projectFilePath": "C:\\Users\\RAMO1378\\Desktop\\GitPush\\ASP.NET_CORE_HTML5_WebSite\\ASP.NET_CORE_HTML5_WebSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAMO1378\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.0\\microsoft.aspnetcore.cryptography.internal.3.1.0.nupkg.sha512",
     "C:\\Users\\RAMO1378\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.0\\microsoft.aspnetcore.cryptography.keyderivation.3.1.0.nupkg.sha512",

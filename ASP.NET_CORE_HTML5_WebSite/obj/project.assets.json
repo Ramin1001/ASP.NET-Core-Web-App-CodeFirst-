@@ -8375,11 +8375,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Yazilmis proqramlar\\ASP.NET_CORE_TestProjectsAndTricks\\ASP.NET_CORE_HTML5_WebSite\\ASP.NET_CORE_HTML5_WebSite.csproj",
+      "projectUniqueName": "C:\\Users\\RAMO1378\\Desktop\\GitPush\\ASP.NET_CORE_HTML5_WebSite\\ASP.NET_CORE_HTML5_WebSite.csproj",
       "projectName": "ASP.NET_CORE_HTML5_WebSite",
-      "projectPath": "D:\\Yazilmis proqramlar\\ASP.NET_CORE_TestProjectsAndTricks\\ASP.NET_CORE_HTML5_WebSite\\ASP.NET_CORE_HTML5_WebSite.csproj",
+      "projectPath": "C:\\Users\\RAMO1378\\Desktop\\GitPush\\ASP.NET_CORE_HTML5_WebSite\\ASP.NET_CORE_HTML5_WebSite.csproj",
       "packagesPath": "C:\\Users\\RAMO1378\\.nuget\\packages\\",
-      "outputPath": "D:\\Yazilmis proqramlar\\ASP.NET_CORE_TestProjectsAndTricks\\ASP.NET_CORE_HTML5_WebSite\\obj\\",
+      "outputPath": "C:\\Users\\RAMO1378\\Desktop\\GitPush\\ASP.NET_CORE_HTML5_WebSite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
