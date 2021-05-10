@@ -9,6 +9,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ASP.NET_CORE_HTML5_WebSite.Domain.Repositories.Abstract;
+using ASP.NET_CORE_HTML5_WebSite.Domain.Repositories.EntityFramwork;
+using ASP.NET_CORE_HTML5_WebSite.Domain;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace ASP.NET_CORE_HTML5_WebSite
 {
@@ -26,20 +31,64 @@ namespace ASP.NET_CORE_HTML5_WebSite
             // We bind the project property from appsettings.json to Config.cs to further manage it..
             Configuration.Bind("Project", new Config()); // added manualy
 
-            services.AddControllersWithViews()
+
+            // connect interface with EF files and for for one http request we open morethan one object
+            // added manualy
+            services.AddTransient<ITextFieldsRepository, EFTextFieldsRepository>();
+            services.AddTransient<IServiceItemsRepository, EFServiceItemsRepository>();
+            services.AddTransient<DataManager>();
+
+            // connnect contex DB
+            // added manualy
+            services.AddDbContext<AppDbContext>(x => x.UseSqlServer(Config.ConnectionString));
+
+            // set identity sistem
+            // added manualy
+            services.AddIdentity<IdentityUser, IdentityRole>(opts =>
+            {
+                opts.User.RequireUniqueEmail = true;
+                opts.Password.RequiredLength = 6;
+                opts.Password.RequireNonAlphanumeric = false;
+                opts.Password.RequireLowercase = false;
+                opts.Password.RequireUppercase = false;
+                opts.Password.RequireDigit = false;
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+            // set authentication cookies
+            // added manualy
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.Cookie.Name = "myTarvel";
+                options.Cookie.HttpOnly = true;
+                options.LoginPath = "account/login";
+                options.AccessDeniedPath="account/accessdenied";
+                options.SlidingExpiration = true;
+            });
+
+            services.AddControllersWithViews() // added manualy. Makin our web app MVC
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0).AddSessionStateTempDataProvider();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            // registration procedure of middlewre very important
+
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage(); // we need to see all exeptions
             }
 
             app.UseRouting();
+            
+            //connect authentication and authorization
+            // added manualy
+            app.UseCookiePolicy();
+            app.UseAuthentication();
+            app.UseAuthorization();
 
+
+            // connect static files (js, css and so on)
             app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ASP.NET_CORE_HTML5_WebSite.Domain.Repositories.EntityFramwork
 {
-    public class EFServiceItemsRepository
+    public class EFServiceItemsRepository : IServiceItemsRepository
     {
         private readonly AppDbContext _context;
 
