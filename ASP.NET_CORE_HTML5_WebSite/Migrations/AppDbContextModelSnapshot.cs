@@ -98,7 +98,7 @@ namespace ASP.NET_CORE_HTML5_WebSite.Migrations
                         {
                             Id = new Guid("ad0e5ecf-18c0-4752-af7d-739d7e19a1fc"),
                             CodeWord = "PageIndex",
-                            DateAdded = new DateTime(2021, 5, 10, 11, 54, 19, 742, DateTimeKind.Utc).AddTicks(6945),
+                            DateAdded = new DateTime(2021, 5, 11, 5, 58, 29, 852, DateTimeKind.Utc).AddTicks(9085),
                             Text = "Content is filled in by the administrator",
                             Title = "Page index"
                         },
@@ -106,7 +106,7 @@ namespace ASP.NET_CORE_HTML5_WebSite.Migrations
                         {
                             Id = new Guid("ffb11ae5-c98c-46e9-ae9d-eb2746ddb1a3"),
                             CodeWord = "PageServices",
-                            DateAdded = new DateTime(2021, 5, 10, 11, 54, 19, 743, DateTimeKind.Utc).AddTicks(1309),
+                            DateAdded = new DateTime(2021, 5, 11, 5, 58, 29, 853, DateTimeKind.Utc).AddTicks(7441),
                             Text = "Content is filled in by the administrator",
                             Title = "Our services"
                         },
@@ -114,7 +114,7 @@ namespace ASP.NET_CORE_HTML5_WebSite.Migrations
                         {
                             Id = new Guid("a7faf7bd-24bf-4456-9cd1-a956dca1e55d"),
                             CodeWord = "PageContacts",
-                            DateAdded = new DateTime(2021, 5, 10, 11, 54, 19, 743, DateTimeKind.Utc).AddTicks(1366),
+                            DateAdded = new DateTime(2021, 5, 11, 5, 58, 29, 853, DateTimeKind.Utc).AddTicks(7596),
                             Text = "Content is filled in by the administrator",
                             Title = "Contacts"
                         });
@@ -150,7 +150,7 @@ namespace ASP.NET_CORE_HTML5_WebSite.Migrations
                         new
                         {
                             Id = "e93bdc39-c506-48e7-9eef-0bbc9c787f01",
-                            ConcurrencyStamp = "06b62c1b-3844-4ca7-b89c-b8e007559087",
+                            ConcurrencyStamp = "727c5a1d-6019-48c7-b9cb-adb23223ee5c",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         });
@@ -249,13 +249,13 @@ namespace ASP.NET_CORE_HTML5_WebSite.Migrations
                         {
                             Id = "cd3a17d6-e8d1-40b0-8ce4-b8acc14060f0",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "29df7306-6fc6-4d4f-9314-f0d9b185b5b9",
+                            ConcurrencyStamp = "779edd92-4d74-43bd-a356-54940e1e464f",
                             Email = "raminagayev78@gmail.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "RAMINAGAYEV78@GMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAjZUrDwCDIquu53uSkNYYNsyC7ruepAYUWKYC0ldO1lwfRvIvOOrr+atS2hTM/OwQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEI2ZnlVB/F0grB4z6J2mKWakLfP2oJWIX+DSkVgci4zJOBXkWK66L/MPk0xgJFDYKQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,

@@ -194,21 +194,21 @@ namespace ASP.NET_CORE_HTML5_WebSite.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[] { "e93bdc39-c506-48e7-9eef-0bbc9c787f01", "06b62c1b-3844-4ca7-b89c-b8e007559087", "admin", "ADMIN" });
+                values: new object[] { "e93bdc39-c506-48e7-9eef-0bbc9c787f01", "727c5a1d-6019-48c7-b9cb-adb23223ee5c", "admin", "ADMIN" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "cd3a17d6-e8d1-40b0-8ce4-b8acc14060f0", 0, "29df7306-6fc6-4d4f-9314-f0d9b185b5b9", "raminagayev78@gmail.com", true, false, null, "RAMINAGAYEV78@GMAIL.COM", "ADMIN", "AQAAAAEAACcQAAAAEAjZUrDwCDIquu53uSkNYYNsyC7ruepAYUWKYC0ldO1lwfRvIvOOrr+atS2hTM/OwQ==", null, false, "", false, "admin" });
+                values: new object[] { "cd3a17d6-e8d1-40b0-8ce4-b8acc14060f0", 0, "779edd92-4d74-43bd-a356-54940e1e464f", "raminagayev78@gmail.com", true, false, null, "RAMINAGAYEV78@GMAIL.COM", "ADMIN", "AQAAAAEAACcQAAAAEI2ZnlVB/F0grB4z6J2mKWakLfP2oJWIX+DSkVgci4zJOBXkWK66L/MPk0xgJFDYKQ==", null, false, "", false, "admin" });
 
             migrationBuilder.InsertData(
                 table: "TextFields",
                 columns: new[] { "Id", "CodeWord", "DateAdded", "MetaDescription", "MetaKeywords", "MetaTitle", "Subtitle", "Text", "Title", "TitleImagePath" },
                 values: new object[,]
                 {
-                    { new Guid("ad0e5ecf-18c0-4752-af7d-739d7e19a1fc"), "PageIndex", new DateTime(2021, 5, 10, 11, 54, 19, 742, DateTimeKind.Utc).AddTicks(6945), null, null, null, null, "Content is filled in by the administrator", "Page index", null },
-                    { new Guid("ffb11ae5-c98c-46e9-ae9d-eb2746ddb1a3"), "PageServices", new DateTime(2021, 5, 10, 11, 54, 19, 743, DateTimeKind.Utc).AddTicks(1309), null, null, null, null, "Content is filled in by the administrator", "Our services", null },
-                    { new Guid("a7faf7bd-24bf-4456-9cd1-a956dca1e55d"), "PageContacts", new DateTime(2021, 5, 10, 11, 54, 19, 743, DateTimeKind.Utc).AddTicks(1366), null, null, null, null, "Content is filled in by the administrator", "Contacts", null }
+                    { new Guid("ad0e5ecf-18c0-4752-af7d-739d7e19a1fc"), "PageIndex", new DateTime(2021, 5, 11, 5, 58, 29, 852, DateTimeKind.Utc).AddTicks(9085), null, null, null, null, "Content is filled in by the administrator", "Page index", null },
+                    { new Guid("ffb11ae5-c98c-46e9-ae9d-eb2746ddb1a3"), "PageServices", new DateTime(2021, 5, 11, 5, 58, 29, 853, DateTimeKind.Utc).AddTicks(7441), null, null, null, null, "Content is filled in by the administrator", "Our services", null },
+                    { new Guid("a7faf7bd-24bf-4456-9cd1-a956dca1e55d"), "PageContacts", new DateTime(2021, 5, 11, 5, 58, 29, 853, DateTimeKind.Utc).AddTicks(7596), null, null, null, null, "Content is filled in by the administrator", "Contacts", null }
                 });
 
             migrationBuilder.InsertData(

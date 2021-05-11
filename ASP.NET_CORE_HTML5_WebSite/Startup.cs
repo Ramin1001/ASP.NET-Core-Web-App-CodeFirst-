@@ -65,14 +65,26 @@ namespace ASP.NET_CORE_HTML5_WebSite
                 options.SlidingExpiration = true;
             });
 
-            services.AddControllersWithViews() // added manualy. Makin our web app MVC
-                .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0).AddSessionStateTempDataProvider();
+            // set policy authoriztion for Admin area
+            // added manualy.
+            services.AddAuthorization(x =>
+            {
+                x.AddPolicy("AdminArea", policy => { policy.RequireRole("admin"); }); // we required admin role from User
+            });
+
+            // add services for controller and views (MVC)
+            // added manualy.
+            services.AddControllersWithViews(x =>
+            {
+                x.Conventions.Add(new AdminAreaAuthorization("Admin", "AdminArea"));
+            })
+            .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_3_0).AddSessionStateTempDataProvider(); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            // registration procedure of middlewre very important
+            // registration procedure of middlewre very important (Burdaki ardicilliq mutleqdir)
 
             if (env.IsDevelopment())
             {
@@ -93,6 +105,7 @@ namespace ASP.NET_CORE_HTML5_WebSite
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute("admin", "{area:exists}/{controller=Home}/{action=Index}/{id?}"); // added manualy
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}"); // added manualy
             });
         }
