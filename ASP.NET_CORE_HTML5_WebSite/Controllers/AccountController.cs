@@ -36,18 +36,22 @@ namespace ASP.NET_CORE_HTML5_WebSite.Controllers
         {
             if (ModelState.IsValid)
             {
+                // Take user
                 IdentityUser user = await userManager.FindByNameAsync(model.UserName);
 
+                // Check user
                 if (user != null)
                 {
-                    await signInManager.SignOutAsync();
-                    Microsoft.AspNetCore.Identity.SignInResult result = await signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
-                    if (result.Succeeded)
+                    await signInManager.SignOutAsync(); // if true we sign out  and try enter with Password and give other property like remember me and so on
+                    Microsoft.AspNetCore.Identity.SignInResult result = await signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false); // заблокировать при неудачном попытке входа
+                    if (result.Succeeded) // if not return
                     {
                         return Redirect(returnUrl ?? "/");
+                        // if successful, we send the user to the page where he tried to enter, otherwise to the main page
                     }
                 }
 
+                // if not in Db return back
                 ModelState.AddModelError(nameof(LoginViewModel.UserName), "Wrong login or password");
             }
 

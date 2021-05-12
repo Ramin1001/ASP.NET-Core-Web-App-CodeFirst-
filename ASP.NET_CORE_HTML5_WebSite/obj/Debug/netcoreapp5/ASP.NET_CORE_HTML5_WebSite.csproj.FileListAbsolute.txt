@@ -298,7 +298,6 @@ C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_
 C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Views\Shared\ScriptsPartial.cshtml.g.cs
 C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Views\Shared\SidebarPartial.cshtml.g.cs
 C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Views\ViewStart.cshtml.g.cs
 C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\ASP.NET_CORE_HTML5_WebSite.RazorTargetAssemblyInfo.cache
 C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\ASP.NET_CORE_HTML5_WebSite.RazorTargetAssemblyInfo.cs
 C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\ASP.NET_CORE_HTML5_WebSite.Views.pdb
@@ -313,4 +312,9 @@ C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_
 C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\bin\Debug\netcoreapp5\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\bin\Debug\netcoreapp5\Microsoft.Extensions.DependencyModel.dll
 C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\bin\Debug\netcoreapp5\Newtonsoft.Json.Bson.dll
-C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Views\ViewImports.cshtml.g.cs
+C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Areas\Admin\Views\TextFields\Edit.cshtml.g.cs
