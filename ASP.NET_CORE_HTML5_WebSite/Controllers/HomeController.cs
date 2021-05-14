@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ASP.NET_CORE_HTML5_WebSite.Domain;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,23 @@ namespace ASP.NET_CORE_HTML5_WebSite.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly DataManager dataManager;
+
+        public HomeController(DataManager dataManager)
+        {
+            this.dataManager = dataManager;
+        }
+
+
+
         public IActionResult Index()
         {
+            return View(dataManager.TextFields.GetTextFieldByCodeWord("PageIndex"));
+        }
 
-            return View();
+        public IActionResult Contacts()
+        {
+            return View(dataManager.TextFields.GetTextFieldByCodeWord("PageContacts"));
         }
 
 

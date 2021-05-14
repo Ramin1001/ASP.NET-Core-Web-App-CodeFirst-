@@ -59,7 +59,7 @@ namespace ASP.NET_CORE_HTML5_WebSite.Areas.Admin.Controllers
 
         public IActionResult Delete(Guid id)
         {
-            dataManager.ServiceItems.GetServiceItemById(id);
+            dataManager.ServiceItems.DeleteServiceItem(id);
             return RedirectToAction(nameof(HomeController.Index), nameof(HomeController).CutController());
         }
 

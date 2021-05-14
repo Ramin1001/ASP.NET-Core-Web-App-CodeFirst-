@@ -20,6 +20,13 @@ using ASP.NET_CORE_HTML5_WebSite.Model;
 #line hidden
 #nullable disable
 #nullable restore
+#line 4 "C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\Views\_ViewImports.cshtml"
+using ASP.NET_CORE_HTML5_WebSite.Domain.Entities;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\Views\Shared\MetatagsPartial.cshtml"
 using ASP.NET_CORE_HTML5_WebSite.Service;
 
@@ -27,7 +34,7 @@ using ASP.NET_CORE_HTML5_WebSite.Service;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6dd38e1ace291fbaf06c442a8edda5cd1aa54541", @"/Views/Shared/MetatagsPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"851d4ef3de1c03b26b261f7caac9f2e9766a542a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1cabb1a0ff0df00df53d77dfad24e0f28fb85851", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_MetatagsPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

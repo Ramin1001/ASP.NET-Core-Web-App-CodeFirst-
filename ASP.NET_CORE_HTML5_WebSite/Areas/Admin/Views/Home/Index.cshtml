@@ -22,12 +22,12 @@
             {
                 <div>
                    <div>
-                      <a asp-area="Admin" asp-controller="ServiceItems" asp-action="@entity.Id" asp-route-id="">Edit</a>
-                      <form style="display:inline-block;" id="form-@entity.Id" asp-area="Admin" asp-controller="ServiceItems" asp-action="Edit" asp-route-id="@entity.Id">
+                      <a asp-area="Admin" asp-controller="ServiceItems" asp-action="Edit" asp-route-id="@entity.Id">Edit</a>
+                      <form style="display:inline-block;" id="form-@entity.Id" asp-area="Admin" asp-controller="ServiceItems" asp-action="Delete" method="post">
                           <input type="hidden" name="id" value="@entity.Id" />
-                          <a href="#" onclick="document.getElementById('form-@entity.Id').submit()">Delete</a>
+                          <a href="#" onclick="document.getElementById('form-@entity.Id').submit();">Delete</a>
                       </form>
-                      <a asp-area="" asp-controller="Services" asp-action="Index" asp-route-id="@entity.Id"></a>
+                      <a asp-area="" asp-controller="Services" asp-action="Index" asp-route-id="@entity.Id">@($"{entity.Title}")</a>
                    </div>
                 </div>
             }

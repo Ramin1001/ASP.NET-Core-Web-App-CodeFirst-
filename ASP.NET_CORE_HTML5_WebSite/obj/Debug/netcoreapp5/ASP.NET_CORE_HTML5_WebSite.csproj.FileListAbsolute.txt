@@ -318,3 +318,5 @@ C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_
 C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Areas\Admin\Views\TextFields\Edit.cshtml.g.cs
+C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Areas\Admin\Views\ServiceItems\Edit.cshtml.g.cs
+C:\Users\RAMO1378\Desktop\GitPush ASP.NET_CORE_HTML5_WebSite\ASP.NET_CORE_HTML5_WebSite\obj\Debug\netcoreapp5\Razor\Views\Home\Contacts.cshtml.g.cs
