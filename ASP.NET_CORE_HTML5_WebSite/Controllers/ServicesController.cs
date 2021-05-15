@@ -24,7 +24,7 @@ namespace ASP.NET_CORE_HTML5_WebSite.Controllers
                 return View("Show", dataManager.ServiceItems.GetServiceItemById(id));
             }
 
-            ViewBag.TesxtField = dataManager.TextFields.GetTextFieldByCodeWord("PageServices");
+            ViewBag.TextField = dataManager.TextFields.GetTextFieldByCodeWord("PageServices");
 
             return View(dataManager.ServiceItems.GetServiceItems());
         }
