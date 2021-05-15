@@ -38,7 +38,7 @@ namespace ASP.NET_CORE_HTML5_WebSite
             services.AddTransient<IServiceItemsRepository, EFServiceItemsRepository>();
             services.AddTransient<DataManager>();
 
-            // connnect contex DB
+            // connnect to DB (with connection string)
             // added manualy
             services.AddDbContext<AppDbContext>(x => x.UseSqlServer(Config.ConnectionString));
 
