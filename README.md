@@ -1,4 +1,3 @@
-# ASP.NET-Core-Web-App-CodeFirst-
 # Tools and technologies I used.
 The ASP.NET Core Simply Web App working with Code First
 * Visual Studio 2019
